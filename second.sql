@@ -24,4 +24,3 @@ delete from users where id =6;
 drop table users
 
 
-
