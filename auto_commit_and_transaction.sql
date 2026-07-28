@@ -7,7 +7,7 @@ commit;
 delete from users where id=6;
 -- it brings back all the deleted things back till the last commit;
 rollback;
--- suppose i have deleted id =6 by mistakenly so by rollbacl i can bring it back
+-- suppose i have deleted id =6 by mistakenly so by rollback i can bring it back
 
 delete from users where id=5;
 -- if i want to dlt itb permanently remove set autocommit=0; and write commit after query to dlt permanently
